@@ -1,0 +1,44 @@
+version: '2'
+
+services:
+    db:
+        image: mysql
+        ports:
+            - 3306:3306
+        volumes:
+            - "./.data/db:/var/lib/mysql"
+        environment:
+            - MYSQL_DATABASE=symfony
+            - MYSQL_ROOT_PASSWORD=root
+            - MYSQL_USER=symfony
+            - MYSQL_PASSWORD=symfony
+    redis:
+        image: redis:alpine
+        ports:
+            - 6379:6379
+    www:
+        build: apache-php
+        ports:
+            - 80:80
+        links:
+            - db:mysqldb
+            - redis
+        volumes:
+            - ./logs/apache/:/var/log/apache2
+            - ./TTv3-Symfony:/var/www/html
+            - ./logs/symfony:/var/www/html/var/logs
+    elk:
+        image: willdurand/elk
+        ports:
+            - 81:80
+        volumes:
+            - ./elk/logstash:/etc/logstash
+            - ./elk/logstash/patterns:/opt/logstash/patterns
+        volumes_from:
+            - www
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        ports:
+            - 8080:80
+        links:
+            - db
