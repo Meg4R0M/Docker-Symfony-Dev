@@ -1,0 +1,202 @@
+[Thu Mar 23 14:10:07.080657 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.5:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.5. Set the 'ServerName' directive globally to suppress this message
+[Thu Mar 23 14:10:07.290363 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.5:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 23 14:10:07.294525 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1t configured -- resuming normal operations
+[Thu Mar 23 14:10:07.294553 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Mar 23 14:26:01.269612 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.5:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.5. Set the 'ServerName' directive globally to suppress this message
+[Thu Mar 23 14:26:01.301021 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.5:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 23 14:26:01.303495 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1t configured -- resuming normal operations
+[Thu Mar 23 14:26:01.303520 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Mar 23 14:30:26.575285 2017] [:error] [pid 16] [client 172.21.0.1:49034] PHP Warning:  require(/var/www/html/app/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/app/autoload.php on line 7, referer: http://localhost/web/
+[Thu Mar 23 14:30:26.575361 2017] [:error] [pid 16] [client 172.21.0.1:49034] PHP Fatal error:  require(): Failed opening required '/var/www/html/app/../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/html/app/autoload.php on line 7, referer: http://localhost/web/
+[Thu Mar 23 15:07:56.496962 2017] [ssl:warn] [pid 15] AH01909: 172.21.0.5:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.5. Set the 'ServerName' directive globally to suppress this message
+[Thu Mar 23 15:07:56.504495 2017] [ssl:warn] [pid 15] AH01909: 172.21.0.5:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 23 15:07:56.506734 2017] [mpm_prefork:notice] [pid 15] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Thu Mar 23 15:07:56.506764 2017] [core:notice] [pid 15] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Mar 23 15:16:15.978121 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.5:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.5. Set the 'ServerName' directive globally to suppress this message
+[Thu Mar 23 15:16:15.986455 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.5:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 23 15:16:15.986530 2017] [core:warn] [pid 8] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 23 15:16:15.987979 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Thu Mar 23 15:16:15.988000 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Mar 23 15:27:08.074139 2017] [ssl:warn] [pid 12] AH01909: 172.21.0.5:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.5. Set the 'ServerName' directive globally to suppress this message
+[Thu Mar 23 15:27:08.117866 2017] [:error] [pid 12] python_init: Python version mismatch, expected '2.7.6', found '2.7.12'.
+[Thu Mar 23 15:27:08.118043 2017] [:error] [pid 12] python_init: Python executable found '/usr/bin/python'.
+[Thu Mar 23 15:27:08.118048 2017] [:error] [pid 12] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Thu Mar 23 15:27:08.118068 2017] [:notice] [pid 12] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Thu Mar 23 15:27:08.118072 2017] [:notice] [pid 12] mod_python: using mutex_directory /tmp 
+[Thu Mar 23 15:27:08.127149 2017] [ssl:warn] [pid 12] AH01909: 172.21.0.5:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 23 15:27:08.131751 2017] [mpm_prefork:notice] [pid 12] AH00163: Apache/2.4.18 (Ubuntu) mod_fcgid/2.3.9 mod_python/3.3.1 Python/2.7.12 OpenSSL/1.0.2g configured -- resuming normal operations
+[Thu Mar 23 15:27:08.131777 2017] [core:notice] [pid 12] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Mar 28 09:23:19.566832 2017] [ssl:warn] [pid 10] AH01909: 172.21.0.5:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 28 09:23:19.949088 2017] [:error] [pid 10] python_init: Python version mismatch, expected '2.7.6', found '2.7.12'.
+[Tue Mar 28 09:23:19.953713 2017] [:error] [pid 10] python_init: Python executable found '/usr/bin/python'.
+[Tue Mar 28 09:23:19.953741 2017] [:error] [pid 10] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Mar 28 09:23:19.953779 2017] [:notice] [pid 10] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Mar 28 09:23:19.953789 2017] [:notice] [pid 10] mod_python: using mutex_directory /tmp 
+[Tue Mar 28 09:23:20.001274 2017] [ssl:warn] [pid 10] AH01909: 172.21.0.5:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 09:23:20.001567 2017] [core:warn] [pid 10] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 28 09:23:20.013444 2017] [mpm_prefork:notice] [pid 10] AH00163: Apache/2.4.18 (Ubuntu) mod_fcgid/2.3.9 mod_python/3.3.1 Python/2.7.12 OpenSSL/1.0.2g configured -- resuming normal operations
+[Tue Mar 28 09:23:20.013552 2017] [core:notice] [pid 10] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Mar 28 11:07:16.094234 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.6. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 28 11:07:16.124512 2017] [:error] [pid 8] python_init: Python version mismatch, expected '2.7.6', found '2.7.12'.
+[Tue Mar 28 11:07:16.124661 2017] [:error] [pid 8] python_init: Python executable found '/usr/bin/python'.
+[Tue Mar 28 11:07:16.124666 2017] [:error] [pid 8] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Mar 28 11:07:16.124673 2017] [:notice] [pid 8] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Mar 28 11:07:16.124677 2017] [:notice] [pid 8] mod_python: using mutex_directory /tmp 
+[Tue Mar 28 11:07:16.134420 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 11:07:16.137720 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.18 (Ubuntu) mod_python/3.3.1 Python/2.7.12 OpenSSL/1.0.2g configured -- resuming normal operations
+[Tue Mar 28 11:07:16.137747 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Mar 28 11:11:59.093286 2017] [:error] [pid 11] [client 172.21.0.1:47588] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /var/www/html/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/DataCollector.php on line 54, referer: http://localhost/web/app_dev.php
+[Tue Mar 28 11:11:59.095214 2017] [:error] [pid 11] [client 172.21.0.1:47588] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /var/www/html/vendor/symfony/symfony/src/Symfony/Component/Debug/Exception/OutOfMemoryException.php on line 1, referer: http://localhost/web/app_dev.php
+[Tue Mar 28 11:12:09.281012 2017] [:error] [pid 12] [client 172.21.0.1:47594] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /var/www/html/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/DataCollector.php on line 54, referer: http://localhost/web/app_dev.php
+[Tue Mar 28 11:12:09.282675 2017] [:error] [pid 12] [client 172.21.0.1:47594] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /var/www/html/vendor/symfony/symfony/src/Symfony/Component/Debug/Exception/OutOfMemoryException.php on line 1, referer: http://localhost/web/app_dev.php
+[Tue Mar 28 11:13:53.393980 2017] [:error] [pid 13] [client 172.21.0.1:47718] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 507904 bytes) in /var/www/html/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Profiler/FileProfilerStorage.php on line 124, referer: http://localhost/web/app_dev.php
+[Tue Mar 28 11:15:23.848426 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.6. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 28 11:15:23.874966 2017] [:error] [pid 8] python_init: Python version mismatch, expected '2.7.6', found '2.7.12'.
+[Tue Mar 28 11:15:23.875075 2017] [:error] [pid 8] python_init: Python executable found '/usr/bin/python'.
+[Tue Mar 28 11:15:23.875079 2017] [:error] [pid 8] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Mar 28 11:15:23.875086 2017] [:notice] [pid 8] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Mar 28 11:15:23.875089 2017] [:notice] [pid 8] mod_python: using mutex_directory /tmp 
+[Tue Mar 28 11:15:23.883854 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 11:15:23.887962 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.18 (Ubuntu) mod_python/3.3.1 Python/2.7.12 OpenSSL/1.0.2g configured -- resuming normal operations
+[Tue Mar 28 11:15:23.887995 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Mar 28 13:21:55.055555 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.6. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 28 13:21:55.082175 2017] [:error] [pid 8] python_init: Python version mismatch, expected '2.7.6', found '2.7.12'.
+[Tue Mar 28 13:21:55.082292 2017] [:error] [pid 8] python_init: Python executable found '/usr/bin/python'.
+[Tue Mar 28 13:21:55.082297 2017] [:error] [pid 8] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Mar 28 13:21:55.082305 2017] [:notice] [pid 8] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Mar 28 13:21:55.082319 2017] [:notice] [pid 8] mod_python: using mutex_directory /tmp 
+[Tue Mar 28 13:21:55.093018 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 13:21:55.096306 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.18 (Ubuntu) mod_python/3.3.1 Python/2.7.12 OpenSSL/1.0.2g configured -- resuming normal operations
+[Tue Mar 28 13:21:55.096332 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Mar 28 13:29:56.512110 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.6. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 28 13:29:56.542552 2017] [:error] [pid 8] python_init: Python version mismatch, expected '2.7.6', found '2.7.12'.
+[Tue Mar 28 13:29:56.542680 2017] [:error] [pid 8] python_init: Python executable found '/usr/bin/python'.
+[Tue Mar 28 13:29:56.542685 2017] [:error] [pid 8] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Mar 28 13:29:56.542692 2017] [:notice] [pid 8] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Mar 28 13:29:56.542696 2017] [:notice] [pid 8] mod_python: using mutex_directory /tmp 
+[Tue Mar 28 13:29:56.551600 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 13:29:56.554630 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.18 (Ubuntu) mod_python/3.3.1 Python/2.7.12 OpenSSL/1.0.2g configured -- resuming normal operations
+[Tue Mar 28 13:29:56.554652 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Mar 28 13:41:56.562791 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.6. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 28 13:41:56.591795 2017] [:error] [pid 8] python_init: Python version mismatch, expected '2.7.6', found '2.7.12'.
+[Tue Mar 28 13:41:56.591979 2017] [:error] [pid 8] python_init: Python executable found '/usr/bin/python'.
+[Tue Mar 28 13:41:56.591984 2017] [:error] [pid 8] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Mar 28 13:41:56.591991 2017] [:notice] [pid 8] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Mar 28 13:41:56.591995 2017] [:notice] [pid 8] mod_python: using mutex_directory /tmp 
+[Tue Mar 28 13:41:56.600682 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 13:41:56.604059 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.18 (Ubuntu) mod_python/3.3.1 Python/2.7.12 OpenSSL/1.0.2g configured -- resuming normal operations
+[Tue Mar 28 13:41:56.604086 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Mar 28 14:17:05.082581 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.6. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 28 14:17:05.109846 2017] [:error] [pid 8] python_init: Python version mismatch, expected '2.7.6', found '2.7.12'.
+[Tue Mar 28 14:17:05.109955 2017] [:error] [pid 8] python_init: Python executable found '/usr/bin/python'.
+[Tue Mar 28 14:17:05.109959 2017] [:error] [pid 8] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Mar 28 14:17:05.109974 2017] [:notice] [pid 8] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Mar 28 14:17:05.109978 2017] [:notice] [pid 8] mod_python: using mutex_directory /tmp 
+[Tue Mar 28 14:17:05.119214 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 14:17:05.123155 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.18 (Ubuntu) mod_python/3.3.1 Python/2.7.12 OpenSSL/1.0.2g configured -- resuming normal operations
+[Tue Mar 28 14:17:05.123183 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Mar 28 14:24:25.648865 2017] [mpm_prefork:notice] [pid 8] AH00169: caught SIGTERM, shutting down
+[Tue Mar 28 14:24:50.399495 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.6. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 28 14:24:50.426973 2017] [:error] [pid 8] python_init: Python version mismatch, expected '2.7.6', found '2.7.12'.
+[Tue Mar 28 14:24:50.427120 2017] [:error] [pid 8] python_init: Python executable found '/usr/bin/python'.
+[Tue Mar 28 14:24:50.427128 2017] [:error] [pid 8] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Mar 28 14:24:50.427136 2017] [:notice] [pid 8] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Mar 28 14:24:50.427140 2017] [:notice] [pid 8] mod_python: using mutex_directory /tmp 
+[Tue Mar 28 14:24:50.436147 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 14:24:50.440141 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.18 (Ubuntu) mod_python/3.3.1 Python/2.7.12 OpenSSL/1.0.2g configured -- resuming normal operations
+[Tue Mar 28 14:24:50.440173 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Mar 28 14:26:02.777038 2017] [:error] [pid 9] [client 172.21.0.1:52464] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /var/www/html/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/DataCollector.php on line 54, referer: http://127.0.0.1/web/app_dev.php
+[Tue Mar 28 14:26:02.778389 2017] [:error] [pid 9] [client 172.21.0.1:52464] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /var/www/html/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php on line 593, referer: http://127.0.0.1/web/app_dev.php
+[Tue Mar 28 14:35:31.131150 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.6. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 28 14:35:31.158138 2017] [:error] [pid 8] python_init: Python version mismatch, expected '2.7.6', found '2.7.12'.
+[Tue Mar 28 14:35:31.158265 2017] [:error] [pid 8] python_init: Python executable found '/usr/bin/python'.
+[Tue Mar 28 14:35:31.158274 2017] [:error] [pid 8] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Mar 28 14:35:31.158283 2017] [:notice] [pid 8] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Mar 28 14:35:31.158287 2017] [:notice] [pid 8] mod_python: using mutex_directory /tmp 
+[Tue Mar 28 14:35:31.167388 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 14:35:31.170939 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.18 (Ubuntu) mod_python/3.3.1 Python/2.7.12 OpenSSL/1.0.2g configured -- resuming normal operations
+[Tue Mar 28 14:35:31.170961 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Mar 28 14:41:03.015448 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.6. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 28 14:41:03.041956 2017] [:error] [pid 8] python_init: Python version mismatch, expected '2.7.6', found '2.7.12'.
+[Tue Mar 28 14:41:03.042080 2017] [:error] [pid 8] python_init: Python executable found '/usr/bin/python'.
+[Tue Mar 28 14:41:03.042085 2017] [:error] [pid 8] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Mar 28 14:41:03.042091 2017] [:notice] [pid 8] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Mar 28 14:41:03.042095 2017] [:notice] [pid 8] mod_python: using mutex_directory /tmp 
+[Tue Mar 28 14:41:03.051085 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 14:41:03.054633 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.18 (Ubuntu) mod_python/3.3.1 Python/2.7.12 OpenSSL/1.0.2g configured -- resuming normal operations
+[Tue Mar 28 14:41:03.054655 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Mar 28 14:48:22.535050 2017] [ssl:warn] [pid 7] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.6. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 28 14:48:22.570269 2017] [:error] [pid 7] python_init: Python version mismatch, expected '2.7.6', found '2.7.12'.
+[Tue Mar 28 14:48:22.570402 2017] [:error] [pid 7] python_init: Python executable found '/usr/bin/python'.
+[Tue Mar 28 14:48:22.570406 2017] [:error] [pid 7] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Mar 28 14:48:22.570412 2017] [:notice] [pid 7] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Mar 28 14:48:22.570415 2017] [:notice] [pid 7] mod_python: using mutex_directory /tmp 
+[Tue Mar 28 14:48:22.579441 2017] [ssl:warn] [pid 7] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 14:48:22.582895 2017] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.18 (Ubuntu) mod_python/3.3.1 Python/2.7.12 OpenSSL/1.0.2g configured -- resuming normal operations
+[Tue Mar 28 14:48:22.582921 2017] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Mar 28 15:08:55.407891 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.5:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 28 15:08:55.434611 2017] [:error] [pid 8] python_init: Python version mismatch, expected '2.7.6', found '2.7.12'.
+[Tue Mar 28 15:08:55.434737 2017] [:error] [pid 8] python_init: Python executable found '/usr/bin/python'.
+[Tue Mar 28 15:08:55.434742 2017] [:error] [pid 8] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Mar 28 15:08:55.434758 2017] [:notice] [pid 8] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Mar 28 15:08:55.434761 2017] [:notice] [pid 8] mod_python: using mutex_directory /tmp 
+[Tue Mar 28 15:08:55.443398 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.5:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 15:08:55.446792 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.18 (Ubuntu) mod_python/3.3.1 Python/2.7.12 OpenSSL/1.0.2g configured -- resuming normal operations
+[Tue Mar 28 15:08:55.446815 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Mar 28 15:22:43.178828 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.4:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.4. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 28 15:22:43.206413 2017] [:error] [pid 8] python_init: Python version mismatch, expected '2.7.6', found '2.7.12'.
+[Tue Mar 28 15:22:43.206557 2017] [:error] [pid 8] python_init: Python executable found '/usr/bin/python'.
+[Tue Mar 28 15:22:43.206561 2017] [:error] [pid 8] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Mar 28 15:22:43.206568 2017] [:notice] [pid 8] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Mar 28 15:22:43.206571 2017] [:notice] [pid 8] mod_python: using mutex_directory /tmp 
+[Tue Mar 28 15:22:43.219732 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.4:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 15:22:43.225656 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.18 (Ubuntu) mod_python/3.3.1 Python/2.7.12 OpenSSL/1.0.2g configured -- resuming normal operations
+[Tue Mar 28 15:22:43.225683 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Apr 02 14:16:10.067948 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.4:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Apr 02 14:16:10.095850 2017] [:error] [pid 8] python_init: Python version mismatch, expected '2.7.6', found '2.7.12'.
+[Sun Apr 02 14:16:10.096014 2017] [:error] [pid 8] python_init: Python executable found '/usr/bin/python'.
+[Sun Apr 02 14:16:10.096019 2017] [:error] [pid 8] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Sun Apr 02 14:16:10.096027 2017] [:notice] [pid 8] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Sun Apr 02 14:16:10.096031 2017] [:notice] [pid 8] mod_python: using mutex_directory /tmp 
+[Sun Apr 02 14:16:10.105790 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.4:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Apr 02 14:16:10.109292 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.18 (Ubuntu) mod_python/3.3.1 Python/2.7.12 OpenSSL/1.0.2g configured -- resuming normal operations
+[Sun Apr 02 14:16:10.109320 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Apr 02 14:25:18.948483 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.6. Set the 'ServerName' directive globally to suppress this message
+[Sun Apr 02 14:25:18.974646 2017] [:error] [pid 8] python_init: Python version mismatch, expected '2.7.6', found '2.7.12'.
+[Sun Apr 02 14:25:18.974785 2017] [:error] [pid 8] python_init: Python executable found '/usr/bin/python'.
+[Sun Apr 02 14:25:18.974789 2017] [:error] [pid 8] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Sun Apr 02 14:25:18.974798 2017] [:notice] [pid 8] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Sun Apr 02 14:25:18.974801 2017] [:notice] [pid 8] mod_python: using mutex_directory /tmp 
+[Sun Apr 02 14:25:18.983602 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Apr 02 14:25:18.986993 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.18 (Ubuntu) mod_python/3.3.1 Python/2.7.12 OpenSSL/1.0.2g configured -- resuming normal operations
+[Sun Apr 02 14:25:18.987022 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Apr 02 14:30:14.697942 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.6. Set the 'ServerName' directive globally to suppress this message
+[Sun Apr 02 14:30:14.723850 2017] [:error] [pid 8] python_init: Python version mismatch, expected '2.7.6', found '2.7.12'.
+[Sun Apr 02 14:30:14.723980 2017] [:error] [pid 8] python_init: Python executable found '/usr/bin/python'.
+[Sun Apr 02 14:30:14.723984 2017] [:error] [pid 8] python_init: Python path being used '/usr/lib/python2.7/:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Sun Apr 02 14:30:14.723991 2017] [:notice] [pid 8] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Sun Apr 02 14:30:14.723995 2017] [:notice] [pid 8] mod_python: using mutex_directory /tmp 
+[Sun Apr 02 14:30:14.733026 2017] [ssl:warn] [pid 8] AH01909: 172.21.0.6:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Apr 02 14:30:14.736538 2017] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.18 (Ubuntu) mod_python/3.3.1 Python/2.7.12 OpenSSL/1.0.2g configured -- resuming normal operations
+[Sun Apr 02 14:30:14.736568 2017] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

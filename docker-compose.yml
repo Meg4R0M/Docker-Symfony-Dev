@@ -17,16 +17,23 @@ services:
         ports:
             - 6379:6379
     www:
-        build: apache-php
+        build: apache
         ports:
             - 80:80
         links:
-            - db:mysqldb
+            - php:php
             - redis
+            - db:mysqldb
         volumes:
             - ./logs/apache/:/var/log/apache2
-            - ./TTv3-Symfony:/var/www/html
+            - ./YOUR-PROJECT:/var/www/html
             - ./logs/symfony:/var/www/html/var/logs
+    php:
+        build: php
+        volumes:
+            - ./YOUR-PROJECT:/var/www/html
+        links:
+            - db:mysqldb
     elk:
         image: willdurand/elk
         ports:
